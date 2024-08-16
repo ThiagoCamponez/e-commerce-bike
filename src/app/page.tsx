@@ -2,8 +2,8 @@
 
 export default function Home() {
   return (
-    <main>
+    <div>
       <h1>E-commerce Bike</h1>
-    </main>
+    </div>
   );
 }

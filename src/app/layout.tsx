@@ -17,12 +17,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-      <div className="w-[1440px] mx-auto">
-        {<Navbar />}
-
-        <main className="bg-[#DCE2E5] h-screen p-20">
-        {children}
+      <body className={inter.className}>      
+      <div className="w-full flex justify-center">
+          <Navbar />
+      </div>
+      <div className="w-full flex justify-center">
+        <main className="w-[1440px] bg-[#DCE2E5] h-screen p-20">
+          {children}
         </main>
       </div>
       
